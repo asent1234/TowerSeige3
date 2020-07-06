@@ -23,7 +23,7 @@ class Block{
     }
     display(){
       
-     if(this.body.speed < 5 && blst>= 20 ){
+     if(this.body.speed < 4 && blst>= 20 ){
      // console.log("hello")
       var angle = this.body.angle;
       push();
