@@ -5,7 +5,7 @@ const Constraint = Matter.Constraint;
 
 var ground , stone, blst, launchdeathcount, score, backgroundImg
 
-var bg = "/b2.jpg";
+var bg = "b2.jpg";
 function preload() {
   getBackgroundImg();
 }
@@ -150,10 +150,10 @@ async function getBackgroundImg(){
   var hour = datetime.slice(11,13);
   
   if(hour>=0600 && hour<=1900){
-      bg = "/bg2.jpg";
+      bg = "bg2.jpg";
   }
   else{
-      bg = "/b1.jpg";
+      bg = "b1.jpg";
   }
 
   backgroundImg = loadImage(bg);
